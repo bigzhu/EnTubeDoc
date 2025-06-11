@@ -6,6 +6,7 @@ import markdownItFootNote from 'markdown-it-footnote'
 export default defineConfig({
   title: "English Tube Doc",
   description: "Proven Methods for Mastering English",
+  outDir: 'docs/.vitepress/dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
