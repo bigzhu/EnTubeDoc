@@ -8,6 +8,7 @@ export default defineConfig({
   description: "Proven Methods for Mastering English",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -31,5 +32,8 @@ export default defineConfig({
     config: (md) => {
       md.use(markdownItFootNote)
     }
-  }
+  },
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+  ]
 })
