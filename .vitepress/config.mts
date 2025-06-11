@@ -18,9 +18,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '指南',
+        // text: '指南',
         items: [
-          { text: '首页', link: '/' }
+          { text: '英语必成术', link: '/' },
+          { text: 'English Tube 功能说明', link: '/' }
         ]
       }
     ],
