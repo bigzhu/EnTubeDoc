@@ -43,8 +43,8 @@
 - 5-20 分钟时长
 - ~~有精准人工字幕~~ [^subtitle]
 
-首篇素材优劣, 决定了本方法能否成功执行, 慎选! 慎选!  
-推荐[Dan Koe](https://www.youtube.com/@DanKoeTalks)的这一集:
+首篇素材优劣, 决定成功率, 慎选! 慎选!  
+推荐[Dan Koe](https://www.youtube.com/@DanKoeTalks)这集:
 
 <a href="https://www.youtube.com/watch?v=CzSmZvTYvME" target="_blank">
   <center>
@@ -76,11 +76,11 @@
 
 ### 阶段一: 跟听看懂
 
-`EnTube` 中逐句听看字幕文章, 整句翻译用了低对比色, 利于忽略.
+`EnTube` 中逐句听看字幕文章, 为聚焦英文, 翻译采用低对比.
 
 <center><img src="/images/IMG_F353FF9FB15F-1.webp" alt="界面" width="60%"/></center>
 
-单词点击后可显示解释, AI 分析助记, 词源定义等内容.
+点击单词显示: 解释, AI 分析助记, 词源定义等内容.
 
 <center><img src="/images/IMG_AEDB21C683D6-1.webp" alt="解释" width="60%"/></center>
 
