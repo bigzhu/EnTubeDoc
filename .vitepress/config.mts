@@ -27,7 +27,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    // 添加 TOC 配置
+    outline: 'deep'  // 显示所有层级的标题
   },
   markdown: {
     config: (md) => {
