@@ -8,6 +8,7 @@ export default defineConfig({
   description: "Proven Methods for Mastering English",
   outDir: 'docs/.vitepress/dist',
   base: '/',
+  srcDir: 'docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
