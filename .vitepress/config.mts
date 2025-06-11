@@ -12,16 +12,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '指南',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '首页', link: '/' }
         ]
       }
     ],
@@ -37,5 +35,5 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
-  ],
+  ]
 })
