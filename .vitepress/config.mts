@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import markdownIt from 'markdown-it'
+import markdownItFootNote from 'markdown-it-footnote'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,5 +26,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
+  },
+  markdown: {
+    config: (md) => {
+      md.use(markdownItFootNote)
+    }
   }
 })
